@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.image {
+    width: 400px;
+}
+.heading {
+    color:#ffc800;
+    text-align: center;
+}
+.imagediv {
+    display: flex;
+    justify-content: space-around;
+}
+.pink {
+    color: hotpink;
+    font-size: 20px;
+    font-weight: bold;
+}
