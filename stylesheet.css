@@ -19,3 +19,20 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+.navBar {
+    background-color: rgb(110, 110, 110);
+    border-radius: 10px;
+}
+.navButton {
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.navButton:hover {
+    color: #ffc800;
+}
+.navButton:active {
+    background-color:hotpink;
+}
