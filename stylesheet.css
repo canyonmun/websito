@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
     justify-content: space-around;
     flex-direction: column;
+    background-image: url(https://cdn.hipwallpaper.com/i/53/92/C17k8z.jpg);
+    background-size: cover;
 }
 .navBar {
     background-color: rgb(110, 110, 110);
@@ -20,11 +24,13 @@ body {
     width: 400px; 
 } */
 .heading {
-    color:#ffc800;
+    color: hotpink;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 0;
     padding-top: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
 }
 .imagediv {
     display: flex;
@@ -54,8 +60,24 @@ body {
 .subtitle {
     text-align: center;
     margin-top: 0px;
-    color: #ff7b00;
+    color: black;
+    font-size: 30px;
 }
+.questions {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.paragraph {
+    color:white;
+    background-color:rgb(110, 110, 110);
+    border-radius: 10px;
+    opacity: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+    
 
 @media only screen and (max-width: 368px) {
     .navButton {
