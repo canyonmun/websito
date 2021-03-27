@@ -1,14 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
-    display: flex;
+    font-family: 'Roboto', sans-serif;
     justify-content: space-around;
     flex-direction: column;
 }
-.image {
-    width: 400px;
+.navBar {
+    background-color: rgb(110, 110, 110);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    width: 98%;
+    opacity: 80%;
 }
+/* .image {
+    width: 400px; 
+} */
 .heading {
     color:#ffc800;
     text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding-top: 60px;
 }
 .imagediv {
     display: flex;
@@ -19,20 +35,31 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-.navBar {
-    background-color: rgb(110, 110, 110);
-    border-radius: 10px;
-}
 .navButton {
     margin: 10px;
     border-radius: 5px;
     border: none;
     background-color: transparent;
     color: white;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 .navButton:hover {
     color: #ffc800;
 }
 .navButton:active {
-    background-color:hotpink;
+    color: #ff7b00;
+}
+.subtitle {
+    text-align: center;
+    margin-top: 0px;
+    color: #ff7b00;
+}
+
+@media only screen and (max-width: 368px) {
+    .navButton {
+        font-size: 10px;
+        margin: 7px;
+    }
 }
